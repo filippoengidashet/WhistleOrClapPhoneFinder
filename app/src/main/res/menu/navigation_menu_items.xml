@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/rate"
+            android:icon="@mipmap/ic_rate"
+            android:title="Rate" />
+        <item
+            android:id="@+id/share"
+            android:icon="@mipmap/ic_share"
+            android:title="Share" />
+
+        <item
+            android:id="@+id/browse_code"
+            android:icon="@mipmap/ic_browse_code"
+            android:title="Browse Code" />
+
+        <item
+            android:id="@+id/about"
+            android:icon="@mipmap/ic_about"
+            android:title="About" />
+    </group>
+</menu>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Phone Finder</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="openDrawer">Open</string>
+    <string name="closeDrawer">Close</string>
+
+    <string-array name="accuracyListEntries">
+        <item name="Low">Low</item>
+        <item name="Medium">Medium</item>
+        <item name="High">High</item>
+    </string-array>
+
+    <string-array name="accuracyListValues">
+        <item name="Low">Low</item>
+        <item name="Medium">Medium</item>
+        <item name="High">High</item>
+    </string-array>
+
+    <string-array name="detectionTypeListEntries">
+        <item name="WHISTLE">WHISTLE</item>
+        <item name="CLAP">CLAP</item>
+    </string-array>
+
+    <string-array name="detectionTypeListValues">
+        <item name="WHISTLE">WHISTLE</item>
+        <item name="CLAP">CLAP</item>
+    </string-array>
+
+    <string name="about_app">Futchet Phone Finder is a free open source app. Futchet Phone Finder helps to locate missed Android devices with WHISTLE or CLAP. This application has been developed by Filippo Engidashet.</string>
+
+    <string name="warning">[Warning] The developer assume no liability and responsibility for any misuse or damage caused by this software.</string>
+
+</resources>

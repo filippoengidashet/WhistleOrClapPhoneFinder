@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="STATUS">
+
+        <CheckBoxPreference
+            android:key="enable_preference"
+            android:summary="Phone Finder, running enabled"
+            android:title="Enable"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="DETECTION SETTINGS">
+
+        <ListPreference
+            android:key="detection_type_preference"
+            android:dependency="enable_preference"
+            android:entries="@array/detectionTypeListEntries"
+            android:entryValues="@array/detectionTypeListValues"
+            android:title="Detection Type Setup"
+            android:defaultValue="WHISTLE"/>
+
+        <ListPreference
+            android:key="accuracy_preference"
+            android:dependency="enable_preference"
+            android:entries="@array/accuracyListEntries"
+            android:entryValues="@array/accuracyListValues"
+            android:title="Whistle Accuracy Level Setup"
+            android:defaultValue="Medium" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="GENERAL">
+
+        <Preference
+            android:key="notification_sound_preference"
+            android:title="Change Notification Sound"
+            android:summary="Select notification audion from list or SD Card"/>
+
+        <Preference
+            android:key="help_preference"
+            android:title="Help" />
+
+        <Preference
+            android:key="version_preference"
+            android:summary="1.0"
+            android:title="App Version" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
